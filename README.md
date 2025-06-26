@@ -100,7 +100,7 @@ This project was built from scratch integrating authentication, protected routin
 
 ##  Author
 
-Made by **Rahul**
+Made by **Sourabh**
 
 * [GitHub](https://github.com/sourabh1607)
 * [LinkedIn](https://www.linkedin.com/in/sourabh1607)
