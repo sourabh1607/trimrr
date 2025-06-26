@@ -54,54 +54,6 @@ This project was built from scratch integrating authentication, protected routin
 
 ---
 
-##  Setup Instructions
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/rajanarahul93/trimrr.git
-cd trimrr
-````
-
-2. **Install dependencies**
-
-```bash
-npm install
-```
-
-3. **Setup Supabase**
-
-* Create a free [Supabase](https://supabase.com/) project.
-* Enable **Email Authentication** in Supabase settings.
-* Create two tables:
-
-  * `urls`
-
-    * `id`, `original_url`, `short_url`, `custom_url`, `user_id`, `title`, `qr`, `created_at`
-  * `clicks`
-
-    * `id`, `url_id`, `city`, `device`, `country`, `created_at`
-* Create a Supabase **Bucket** for QR images.
-
-4. **Update Supabase config**
-
-In `/src/db/supabase.js`:
-
-```javascript
-const supabase = createClient(
-  "YOUR_SUPABASE_URL",
-  "YOUR_SUPABASE_ANON_KEY"
-);
-```
-
-5. **Run the app**
-
-```bash
-npm run dev
-```
-
----
-
 ## How It Works (Step by Step)
 
 1. **React project initialized using Vite.**
@@ -150,5 +102,5 @@ npm run dev
 
 Made by **Rahul**
 
-* [GitHub](https://github.com/rajanarahul93)
-* [LinkedIn](https://www.linkedin.com/in/rajanarahul93)
+* [GitHub](https://github.com/sourabh1607)
+* [LinkedIn](https://www.linkedin.com/in/sourabh1607)
