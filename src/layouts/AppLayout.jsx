@@ -12,7 +12,7 @@ const AppLayout = () => {
         </main>
 
         <div className=' p-10 text-center bg-gray-800 mt-10'>
-          Made with ❤️ by <Link to="https://github.com/rajanarahul93" target="_blank">Rahul</Link>
+          Made with ❤️ by <Link to="https://github.com/sourabh1607" target="_blank">Sourabh</Link>
         </div>
     </div>
   )
